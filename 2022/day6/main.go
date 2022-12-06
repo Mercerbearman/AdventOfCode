@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"io"
 	"os"
 	"strings"
@@ -39,7 +40,7 @@ func ReadLine(r io.Reader) (int, error) {
 			chars := line[idx : idx+14]
 
 			if allUnique(chars) {
-				print(string(chars), idx+14)
+				fmt.Println(string(chars), idx+14)
 				break
 			} else {
 				continue
