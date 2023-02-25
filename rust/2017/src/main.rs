@@ -4,5 +4,6 @@
 fn main() {
     //day1::floors::day1();
     //day2::wraps::start();
-    day3::sphere_houses::houses();
+    //day3::sphere_houses::houses();
+    day4::mymd5::myHash();
 }
