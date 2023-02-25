@@ -3,5 +3,6 @@
 
 fn main() {
     //day1::floors::day1();
-    day2::wraps::start();
+    //day2::wraps::start();
+    day3::sphere_houses::houses();
 }
